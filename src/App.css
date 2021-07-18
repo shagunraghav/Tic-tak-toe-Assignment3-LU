@@ -1,0 +1,26 @@
+.icon{
+  color: red;
+  font-size: 30pxs;
+}
+
+body{
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.box{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button{
+    align-items: center;
+    position: relative;
+    left: 40%;
+}
